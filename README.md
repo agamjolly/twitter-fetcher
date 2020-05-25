@@ -10,7 +10,7 @@ then use
 ```bash 
 cd <path to the clone repo>
 ```
-Since the app comes with its own `lib` files, you will not need to separately install any requirements. You can then use the following command once you're in the directory.
+Since the app comes with its own `lib` files, you will not need to separately install any requirements. You can then use the following command once you're in the required directory.
 ```bash 
 flask run
 ```
