@@ -2,10 +2,10 @@ import tweepy
 from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
-access_token = '1132949867666366464-dCkTWOLUEnGnhPpBeJwxGbduhmo8Wp'
-access_token_secret = 'a2GhNcIBLRtkrd3GpjFdW4sOtLT5OhsJnz0MKUhQHCRW9'
-consumer_key = 'OHfGmAhpDjQty43pB1XYRMcme'
-consumer_secret = 'lcUid3EIozytlnmr6UD8vQMAIUYzP8Ur2hCBnlCkOVRwN3tJ25'
+access_token = '%YOUR_TOKEN_HERE%'
+access_token_secret = '%YOUR_TOKEN_HERE%'
+consumer_key = '%YOUR_KEY_HERE%'
+consumer_secret = '%YOUR_KEY_HERE%'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
