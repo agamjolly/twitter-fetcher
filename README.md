@@ -6,7 +6,7 @@ Clone the repository using
 ```bash
 git clone https://www.github.com/agamjolly/twitter-fetcher.git
 ```
-and then use 
+And then use 
 ```bash 
 cd <path to the clone repo>
 ```
